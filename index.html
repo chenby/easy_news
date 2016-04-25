@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redux  </title>
+    <meta charset="utf-8" />
+     <meta name=keywords content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" type="text/css" href="dist/bootstrap.css">
+
+  </head>
+  <body>
+<div class="container-flux">
+  <div  class="header col-md-12 bg-danger text-center">
+  	 <span class="glyphicon glyphicon-menu-left pull-left"></span>
+  	 新闻移动端
+  	 <span class="glyphicon glyphicon-menu-hamburger pull-right"></span>
+  </div>
+  <div class="nav-bar">
+  	<ul class="nav nav-tabs">
+	  <li role="presentation" class="active"><a href="#">主页</a></li>
+	  <li role="presentation"><a href="#">新闻</a></li>
+	  <li role="presentation"><a href="#">娱乐</a></li>
+	  <li role="presentation"><a href="#">游戏</a></li>
+	  <li role="presentation"><a href="#">财经</a></li>
+	</ul>
+  </div>
+   <div class="lbt">	
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><a href=""><img src="./public/img/1.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="./public/img/2.jpg" /></a></div>
+				<div class="swiper-slide"><a href=""><img src="./public/img/3.jpg" /></a></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	 </div>
+	</div>
+<div class="body-wrap" style="display:none">
+	<section>
+		<a>
+			<div class="pull-left" >
+				<img class="img" src="./public/img/3.jpg" />
+			</div>
+			<div class="section-text  ">
+				<h4 style="color:black;">为什么要善待高洪波和宫鲁鸣</h4>
+				<div class="clearfix ">
+					<span class="time pull-left" style="color:gray;">
+						1小时前
+					</span>
+					<span class="pull-right" style="color:red;">
+						<i class="glyphicon glyphicon-heart"></i>
+						750
+					</span>
+					<a class="pull-right" style="margin-right:20px;" >评论</a>
+				</div>
+			</div>
+		</a>
+		<div class="pinglun form-horizontal">
+			<div class="form-group add_pl" >
+			<div class="pl-wrap pull-left"  >
+				
+				<input class="form-control"  name="pinglun" type="text" placeholder="这里可以添加评论的哦~">
+			</div>
+				<input class="btn btn-primary" type="submit" value="提交">
+			</div>
+			<div class="body-main">
+				<div class="body-text">
+					<h5>游客: <a href="">回复</a> <a href="">转发</a></h5>
+					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<h5 class="huifu-user">游客回复：<a href="">回复</a> <a href="">转发</a></h5>
+					<p class="huifu">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+					<input class="form-control"  name="huifu" type="text" placeholder="这里可以回复的哦~">
+				</div>
+				<div class="body-text">
+					<h5>游客:</h5>
+					<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+    <div id="root">
+    </div>
+  <footer class="bg-primary">
+  	<p class="text-center"> @该新闻移动端</p>
+  </footer>
+  </body>
+</html>
+
+
+<script src="./dist/bundle.js"></script>
